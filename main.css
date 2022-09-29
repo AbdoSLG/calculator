@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #555d8e;
+    color: white;
+    height: 100vh;
+    align-items: center;
+}
+.parent{
+    width: 424px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    position: relative;   
+    padding: 75px 0 0 0;
+    border-radius: 11px;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.input{
+    padding: 20px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 6px;
+    height: 18.4px;
+    overflow: auto;
+    border: none;
+    text-align: center;
+}
+.input:focus{
+    outline: none;
+}
+.output{
+    padding: 20px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 6px;
+    width: 58px;
+    height: 18.4px;
+    overflow: auto;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    width: 310px;
+    padding: 9px;
+}
+.box div{
+    padding: 15px 25px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: .3s;
+}
+.box div:hover{ 
+    background-color: #bbb;
+}
+#del{
+    background-color: #555d8e ;
+    color: white;
+}
+#equal{
+    background-color: #e53935;
+    color: white;
+}
